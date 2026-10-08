@@ -1,0 +1,28 @@
+.Job-listings {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.Job-listings h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: aquamarine;
+}
+
+.Job-title{
+  list-style: none;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #333;
+  transition: background 0.2s ease;
+}
+
+.Job-title:hover{
+  background: #e6f0fa;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+
+# Node / Vite (frontend)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Secrets & local config
+**/appsettings.Development.json
+**/secrets.json
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+*.sw?
